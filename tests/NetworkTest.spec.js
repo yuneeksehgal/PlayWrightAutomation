@@ -1,7 +1,7 @@
 const { test, expect, request } = require('@playwright/test');
 const { APiUtils } = require('../utils/APiUtils');
-const loginPayLoad = { userEmail: "anshika@gmail.com", userPassword: "Iamking@000" };
-const orderPayLoad = { orders: [{ country: "India", productOrderedId: "6262e95ae26b7e1a10e89bf0" }] };
+const loginPayLoad = { userEmail: "yuneeksehgal@gmail.com", userPassword: "Testing1@3" };
+const orderPayLoad = { orders: [{ country: "Australia", productOrderedId: "67a8df1ac0d3e6622a297ccb" }] };
 const fakePayLoadOrders = { data: [], message: "No Orders" };
 
 let response;
