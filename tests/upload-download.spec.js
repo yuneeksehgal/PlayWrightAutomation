@@ -1,81 +1,59 @@
-const ExcelJs =require('exceljs');
-const { test, expect } = require('@playwright/test');
+import { test, expect } from '@playwright/test'
+import ExcelJS from 'exceljs'
 
-async function writeExcelTest(searchText,replaceText,change,filePath)
-{
-    
-  const workbook = new ExcelJs.Workbook();
-  await workbook.xlsx.readFile(filePath);
-  const worksheet = workbook.getWorksheet('Sheet1');
-  const output= await readExcel(worksheet,searchText);
+async function writeToExcel(params) {
+    const workbook = new ExcelJS.Workbook()
+    const worksheet = await workbook.xlsx.readFile(params.sheetPath)
+    const sheetName = worksheet.getWorksheet(params.sheetName)
+    const myObject = await readFromExcel(sheetName, params.searchText)
 
-  const cell = worksheet.getCell(output.row,output.column+change.colChange);
-  cell.value = replaceText;
-  await workbook.xlsx.writeFile(filePath);
+    const currentCell = sheetName.getCell(myObject.row, myObject.col + params.colOffset)
+    currentCell.value = params.updatedText
 
+    // for git commit, i am writing into new file
+    await workbook.xlsx.writeFile(params.sheetPath)
 }
 
-
-async function readExcel(worksheet,searchText)
-{
-    let output = {row:-1,column:-1};
-    worksheet.eachRow((row,rowNumber) =>
-    {
-          row.eachCell((cell,colNumber) =>
-          {
-              if(cell.value === searchText)
-              {
-                  output.row=rowNumber;
-                  output.column=colNumber;
-              }
-  
-  
-          }  )
-    
+async function readFromExcel(sheetName, searchText) {
+    let myObject = { row: -1, col: -1 }
+    sheetName.eachRow((row) => {
+        row.eachCell((cell, colNumber) => {
+            if (cell.value === searchText) {
+                console.log(`${searchText} found in row ${row.number} & column ${colNumber}`)
+                myObject.row = row.number
+                myObject.col = colNumber
+            }
+        })
     })
-    return output;
+    return myObject
 }
-//update Mango Price to 350. 
-//writeExcelTest("Mango",350,{rowChange:0,colChange:2},"/Users/rahulshetty/downloads/excelTest.xlsx");
-test('Upload download excel validation',async ({page})=>
-{
-  const textSearch = 'Mango';
-  const updateValue = '350';
-  await page.goto("https://rahulshettyacademy.com/upload-download-test/index.html");
-  const downloadPromise = page.waitForEvent('download');
-  await page.getByRole('button',{name:'Download'}).click();
-  await downloadPromise;
-  writeExcelTest(textSearch,updateValue,{rowChange:0,colChange:2},"C:/Users/yunee/Downloads/download.xlsx");
-  await page.locator("#fileinput").click();
-  await page.locator("#fileinput").setInputFiles("C:/Users/yunee/Downloads/download.xlsx");
-  const textlocator = page.getByText(textSearch);
-  const desiredRow = await page.getByRole('row').filter({has :textlocator });
-  await expect(desiredRow.locator("#cell-4-undefined")).toContainText(updateValue);
 
+test('upload and download', async ({ page }) => {
+    // variables
+    const sheetPath = 'downloadedExcel.xlsx'
+    const sheetName = 'Sheet1'
+    const searchText = 'Mango'
+    const updatedText = 100
 
+    await page.goto('https://rahulshettyacademy.com/upload-download-test/index.html', { waitUntil: 'domcontentloaded' })
 
+    // Download the file and save as excel
+    const downloadPromise = page.waitForEvent('download')
+    await page.getByText('Download').click() // click the download button
+    const download = await downloadPromise // wait for download event to complete
+    await download.saveAs(sheetPath) // save the file
 
+    // Read the file and update the value
+    await writeToExcel({ sheetPath, sheetName, searchText, updatedText, colOffset: 2 })
 
+    // Upload the file and check if the value is updated
+    await page.locator('#fileinput').setInputFiles(sheetPath)
 
+    // Assert the value in page, is updated
+    const locatorForSearchText = page.getByText(searchText)
+    const locatorForIdentifiedRow = page.getByRole('row').filter({ has: locatorForSearchText })
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    expect(await locatorForIdentifiedRow.getByRole('cell', { name: updatedText }).textContent()).toContain(
+        updatedText.toString(),
+    )
 })
-
-
-
-
-
-
-
