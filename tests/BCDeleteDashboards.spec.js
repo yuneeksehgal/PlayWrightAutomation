@@ -11,7 +11,8 @@ test.beforeAll(async ({browser})=>
    const context = await browser.newContext();
    const page= await context.newPage();
 
-   await page.goto("https://staging-monitor-1.breadcrumbs.app/");
+   await page.goto("https://monitor.breadcrumbs.app/dashboards");
+   //await page.goto("https://staging-monitor-1.breadcrumbs.app/");
    await expect(page).toHaveTitle(/Breadcrumbs/);
    await page.locator("a[data-testid='navbar-Log in']").click();
    await page.locator("#email").fill("yuneek@breadcrumbs.app");
@@ -35,9 +36,11 @@ test('Delete Dashboard from Monitoring Tool Account', async ()=>
    //const context = await browser.newContext();
    const page= await webContext.newPage();
    
-   await page.goto("https://staging-monitor-1.breadcrumbs.app/");  
+   await page.goto("https://monitor.breadcrumbs.app/dashboards");
+   //await page.goto("https://staging-monitor-1.breadcrumbs.app/");  
 
-   await expect(page.locator('div[data-testid="navbar-right-section"] p')).toContainText('YuneekAdmin');
+   //await expect(page.locator('div[data-testid="navbar-right-section"] p')).toContainText('YuneekAdmin');
+   await expect(page.locator('div[data-testid="navbar-right-section"] p')).toContainText('YuneekSehgal');
    //await expect(page.locator('div[data-testid="navbar-right-section"] p')).toContainText('Yuneek22aLEPaid');
    await page.locator('span[data-testid="tab-link-item-1"]').click();
 
@@ -70,7 +73,7 @@ while (true) {
 
   if (title && title.includes('Test')) {
     console.log(`Matched: ${title}`);
-    matches.push(titleSelector); // Store the selector or title for later  
+    matches.push(title); // Store the selector or title for later  
     
     //break;
   }
@@ -79,21 +82,22 @@ while (true) {
 }
 
 // 🎯 Take action on collected matches (e.g., click them one by one)
-for (const selector of matches) {
-
-    const titleElement = await page.locator(selector);
-    const title = await titleElement.textContent();
-    await page.locator(selector).click();
+for (let i = matches.length; i > 0 ; i--) {
+  
+    //const titleElement = await page.locator(matches[i-1]);
+    //const title = await titleElement.textContent();
+    await page.getByText(matches[i-1]).click();
     await expect(page.getByText('Dashboard Settings')).toBeVisible();
     await page.getByText('Dashboard Settings').click();
     await page.locator('button[color="danger"]').click();
     await page.getByRole('button', { name: 'Confirm' }).click();
-    console.log(`Deleted: ${title}`);
+    console.log(`Deleted: ${matches[i-1]}`);
     await expect(page.locator('div[data-testid="notification"]')).toContainText('Dashboard deleted');
-    await expect(titleElement).toBeVisible();
+    await page.waitForSelector('ul[data-testid="dashboard-list-private"] > a:nth-of-type(1) > div:nth-child(2) > div:nth-child(1)');
+    //await page.waitForLoadState();
     await page.waitForTimeout(500);
+    continue;
 }
-
 
    
 }
