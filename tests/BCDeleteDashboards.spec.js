@@ -94,7 +94,7 @@ for (let i = matches.length; i > 0 ; i--) {
     console.log(`Deleted: ${matches[i-1]}`);
     await expect(page.locator('div[data-testid="notification"]')).toContainText('Dashboard deleted');
     await page.waitForSelector('ul[data-testid="dashboard-list-private"] > a:nth-of-type(1) > div:nth-child(2) > div:nth-child(1)');
-    //await page.waitForLoadState();
+    await page.waitForLoadState();
     await page.waitForTimeout(500);
     continue;
 }
