@@ -39,6 +39,7 @@ test.only('Login into Client site using AI', async ({ page }) => {
   await ai('Click Continue', aiArgs)
   await page.waitForTimeout(8_000)
   await ai('Click "New Report" button', aiArgs)
-
+  await ai('Wait for "Resolution Below Recommended Settings" modal to appear', aiArgs)
+  await ai('Click "OK" button', aiArgs)
 
 })
