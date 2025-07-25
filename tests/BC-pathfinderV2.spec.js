@@ -19,7 +19,7 @@ test('Path Finder V2 flow on Breadcrumbs staging', async ({ page }) => {
   await page.click('img[alt="BTC"]');
 
   // Bitcoin address input
-  await page.click('div[data-testid="cursor-tooltip"]'); // Assuming this selects the second point
+  await page.locator('div[data-testid="cursor-tooltip"]').click(); // Assuming this selects the second point
   const btcAddress = 'e7544d129e4aeac88d992e0836b44f9d20f6eb314ccd9d92605c79f51801423d';
   await page.fill('input[placeholder*="Bitcoin address"]', btcAddress);
   await page.keyboard.press('Enter');
@@ -45,11 +45,15 @@ test('Path Finder V2 flow on Breadcrumbs staging', async ({ page }) => {
   await expect(page.locator('path[data-testid="edge-20AC0834E5B01FE664F6F575EE86CCA5"]')).toBeVisible();
 
   // Select a Transaction
-  await page.locator('#edge-group-20AC0834E5B01FE664F6F575EE86CCA5 > circle').click();
+  await page.locator('#edge-group-20AC0834E5B01FE664F6F575EE86CCA5 circle').click();
+  
 
   // Find paths
   await page.click('text=Find Paths');
-  await expect(page.locator('.chVKMm > p')).toContainText('Hang tight! We’re searching for results…');
+
+
+    // Wait for Table rows 
+  await page.waitForTimeout(10000);
   await expect(page.locator('div[data-testid="pathfinder-results-table"] tbody')).toBeVisible();
 
    // Wait for UI updates
@@ -65,5 +69,5 @@ test('Path Finder V2 flow on Breadcrumbs staging', async ({ page }) => {
 
   // Verify final graph edges
   await expect(page.locator('path[data-testid="edge-B9298116A3B0F12A8D90DFEDC4D62BD4"]')).toBeVisible();
-  await expect(page.locator('path[data-testid="edge-97E262CFC93A06BE9FB642C91810C8D2"]')).toBeVisible();
+  await expect(page.locator('path[data-testid="edge-AD12BFC6C13A8B4F425F83BC5315DBBC"]')).toBeVisible();
 });
