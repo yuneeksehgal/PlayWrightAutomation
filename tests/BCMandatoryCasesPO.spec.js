@@ -27,7 +27,7 @@ test('Login Page with Page Objects', async ({ }) => {
 
   // Get the LoginPage object from POManager
   const loginPage = poManager.getLoginPage();
-  await loginPage.goTo();
+  await loginPage.goTo(testData.productionURL);
   await loginPage.validLogin(testData.useremail, testData.password, testData.username);
 
 }
@@ -45,11 +45,8 @@ test('Investigation Tool | Transaction Slider Export to CSV', async ({ }) => {
   const sheetPath = 'downloadedExport.csv';
 
   await reportsPage.pressOK();
- 
   await reportsPage.setInputHash(testData.ethHashValue);
-    
   await reportsPage.addAllTxsToGraph();
- 
   await reportsPage.txSliderExport(); 
 
   }
@@ -87,8 +84,21 @@ test('Investigation Tool V2 | Download CSV', async ()=>
 {
    const homePage = poManager.getHomePage();
    const reportsPage = poManager.getReportsPage();
-
+   await page.reload();
+   await reportsPage.pressOK();
    await reportsPage.investigationDownloadCSV();
+
+}
+);
+
+test('Investigation Tool V2 | Download Timeline Video', async ()=>
+
+{
+   const homePage = poManager.getHomePage();
+   const reportsPage = poManager.getReportsPage();
+   await page.reload();
+   await reportsPage.pressOK();
+   await reportsPage.investigationDownloadTimelineVideo();
 
 }
 );
