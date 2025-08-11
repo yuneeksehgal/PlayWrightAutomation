@@ -1,22 +1,24 @@
 {
-  "name": "PlayWrightAutomation",
+  "name": "playwrightbcautomation",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "regression": "npx playwright test",
-    "webTests": "npx playwright test --grep @Web",
-    "APITests": "npx playwright test --grep @API",
-    "SafariNewConfig": "npx playwright test --config playwright.config1.js --project=safari"
+    "BCLoginCheck": "npx playwright test tests/BCLogin.spec.js",
+    "BCMandatoryCasesProd": "cross-env ENV=production npx playwright test tests/BCMandatoryCasesPO.spec.js",
+    "BCMandatoryCasesStaging": "cross-env ENV=staging npx playwright test tests/BCMandatoryCasesPO.spec.js",
+    "BCPathFinderV2": "npx playwright test tests/BC-pathfinderV2.spec.js",
+    "AIDemo": "npx playwright test tests/AIDemoUsingZerosteo.spec.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "devDependencies": {
-    "@cucumber/cucumber": "*",
-    "@playwright/test": "^1.40",
-    "allure-playwright": "^2.0.0-beta.15",
-    "typescript": "^5.4.5"
+    "@playwright/test": "^1.51.0",
+    "@types/node": "^22.13.9",
+    "@zerostep/playwright": "^0.1.5",
+    "allure-playwright": "^3.3.2",
+    "typescript": "^5.9.2"
   },
   "dependencies": {
     "exceljs": "^4.4.0"
