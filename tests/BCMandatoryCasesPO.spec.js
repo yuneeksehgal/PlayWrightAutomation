@@ -5,6 +5,9 @@ const { POManager } = require('../pageobjects/POManager');
 // Import the test data
 const testData = require("../utils/BCTestData.json");
 
+const env = process.env.ENV || 'production'; // default to production
+const envUrl = env === 'staging' ? testData.stagingURL : testData.productionURL;
+
 test.describe.configure({ mode: 'serial' });
 
 let page;
@@ -102,3 +105,4 @@ test('Investigation Tool V2 | Download Timeline Video', async ()=>
 
 }
 );
+
