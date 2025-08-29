@@ -9,7 +9,7 @@ class HomePage{
         this.page=page;        
         this.NewReportButton= page.getByText("New Report");
         this.savedReportTab= page.getByText('Saved Reports');
-        this.savedReportLink = page.getByText('Export PDF check');
+        
     }
 
     async newReport()
@@ -18,10 +18,11 @@ class HomePage{
     
     }
 
-    async openSavedReport()
+    async openSavedReport(envReport)
     {
        await this.savedReportTab.click();
-       await this.savedReportLink.click();
+       const savedReportLink = this.page.getByText(envReport);
+        await savedReportLink.click();
     
     }
 
