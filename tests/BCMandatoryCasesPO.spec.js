@@ -7,6 +7,7 @@ const testData = require("../utils/BCTestData.json");
 
 const env = process.env.ENV || 'production'; // default to production
 const envUrl = env === 'staging' ? testData.stagingURL : testData.productionURL;
+const envReport = env === 'staging' ? testData.stagingReport : testData.productionReport;
 
 test.describe.configure({ mode: 'serial' });
 
@@ -30,7 +31,7 @@ test('Login Page with Page Objects', async ({ }) => {
 
   // Get the LoginPage object from POManager
   const loginPage = poManager.getLoginPage();
-  await loginPage.goTo(testData.productionURL);
+  await loginPage.goTo(envUrl);
   await loginPage.validLogin(testData.useremail, testData.password, testData.username);
 
 }
@@ -74,7 +75,7 @@ test('Investigation Tool V2 | Download PDF', async ()=>
    const homePage = poManager.getHomePage();
    const reportsPage = poManager.getReportsPage();
 
-   await homePage.openSavedReport();
+   await homePage.openSavedReport(envReport);
 
    await reportsPage.pressOK();
    await reportsPage.investigationDownloadPDF();
@@ -105,4 +106,3 @@ test('Investigation Tool V2 | Download Timeline Video', async ()=>
 
 }
 );
-
