@@ -1,0 +1,259 @@
+{
+  "cookies": [
+    {
+      "name": "_csrf",
+      "value": "3_qbTCPXfpl05-dEKLfTgpdA",
+      "domain": "breadcrumbs.us.auth0.com",
+      "path": "/usernamepassword/login",
+      "expires": 1757835384.237834,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "gs_v_GSN-098936-I",
+      "value": "",
+      "domain": "www.breadcrumbs.app",
+      "path": "/",
+      "expires": 1791531390.343627,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.2058156327.1756971381",
+      "domain": ".breadcrumbs.app",
+      "path": "/",
+      "expires": 1791531390.339936,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "personalization_id",
+      "value": "\"v1_0GMFdww2FMYbHtEBPokT0Q==\"",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1791531381.032053,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "SSBx0LS3Xj72AJja6BfZVOo1iapWk6UqwJOmUpNHdas-1756971380-1.0.1.1-1uK.A9IO2es708yB86HX4suxEBzRXTSn6WFWo6ZkEQg3quWvzLQAsWoGKp4f7pRnjK8.fqpXpqvn2_FGckUDOcqAHrGLecHdpvOL1LsZh2Y",
+      "domain": ".twitter.com",
+      "path": "/",
+      "expires": 1756973181.032121,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "muc_ads",
+      "value": "46df6f9f-b0ea-4529-8280-6e6d173ff848",
+      "domain": ".t.co",
+      "path": "/",
+      "expires": 1791531381.054763,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "o7fi_wo8sXsN4wIp5KSshJeeNowCKcQqtH0AmW6Wxac-1756971380-1.0.1.1-5af.mtcMbhd_ebLT0wtRWWhbCpqZaAbQjW51X0LlRJMGc0mJ4ZFIIgRne9sM8nMvFi6bwTgJNUvCnlT9UrRaRs7rMk1dfMRjUKWIc8KpZhI",
+      "domain": ".t.co",
+      "path": "/",
+      "expires": 1756973181.054821,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_hjSession_3085307",
+      "value": "eyJpZCI6Ijc2YjVlNmY5LWI1N2QtNDQ0MS1iOTQ1LTZlNDI4NjU4YmYwMCIsImMiOjE3NTY5NzEzODExNTAsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MH0=",
+      "domain": ".breadcrumbs.app",
+      "path": "/",
+      "expires": 1756973181,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_hp2_ses_props.4177296318",
+      "value": "%7B%22ts%22%3A1756971380740%2C%22d%22%3A%22www.breadcrumbs.app%22%2C%22h%22%3A%22%2F%22%7D",
+      "domain": ".breadcrumbs.app",
+      "path": "/",
+      "expires": 1756973190,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "did",
+      "value": "s%3Av0%3Afbd20023-b136-46eb-bd60-b85229ef6460.EGqp2YqF5bJ0Q6PIA1cFsPjzxNA5URb3z4kAdoqd1Pg",
+      "domain": "breadcrumbs.us.auth0.com",
+      "path": "/",
+      "expires": 1788528982.756958,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "did_compat",
+      "value": "s%3Av0%3Afbd20023-b136-46eb-bd60-b85229ef6460.EGqp2YqF5bJ0Q6PIA1cFsPjzxNA5URb3z4kAdoqd1Pg",
+      "domain": "breadcrumbs.us.auth0.com",
+      "path": "/",
+      "expires": 1788528982.757131,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "m",
+      "value": "428d5c33-c4ec-483d-8c4d-dd434fc3d79c2533e0",
+      "domain": "m.stripe.com",
+      "path": "/",
+      "expires": 1791531391.728545,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__stripe_mid",
+      "value": "a752124b-3eee-4dee-bc36-8fba4d6fa2baef8b7d",
+      "domain": ".www.breadcrumbs.app",
+      "path": "/",
+      "expires": 1788507391,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "__stripe_sid",
+      "value": "f529f626-6c5d-49c7-a2eb-13eb6f124a671dfbdd",
+      "domain": ".www.breadcrumbs.app",
+      "path": "/",
+      "expires": 1756973191,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "auth0",
+      "value": "s%3Auunxn_x4gZe6syrFChoPP_q-j7BG0jnn.7FJBU1D%2FqbnQpsFV1Rr%2FSxz6Ro15V%2B9w6cwtNKiDntE",
+      "domain": "breadcrumbs.us.auth0.com",
+      "path": "/",
+      "expires": 1757230586.701345,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "auth0_compat",
+      "value": "s%3Auunxn_x4gZe6syrFChoPP_q-j7BG0jnn.7FJBU1D%2FqbnQpsFV1Rr%2FSxz6Ro15V%2B9w6cwtNKiDntE",
+      "domain": "breadcrumbs.us.auth0.com",
+      "path": "/",
+      "expires": 1757230586.70155,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "breadcrumbs-theme",
+      "value": "auto",
+      "domain": "www.breadcrumbs.app",
+      "path": "/",
+      "expires": 1788507390.223443,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_hp2_id.4177296318",
+      "value": "%7B%22userId%22%3A%224383182329785411%22%2C%22pageviewId%22%3A%224902242274399094%22%2C%22sessionId%22%3A%227101750756882656%22%2C%22identity%22%3Anull%2C%22trackerVersion%22%3A%224.0%22%7D",
+      "domain": ".breadcrumbs.app",
+      "path": "/",
+      "expires": 1791048990,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "gs_u_GSN-098936-I",
+      "value": "fe75f06efbaa1f8a3c1877e9a55a4fe0:3115:5379:1756971390342",
+      "domain": "www.breadcrumbs.app",
+      "path": "/",
+      "expires": 1791531390.342958,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_hjSessionUser_3085307",
+      "value": "eyJpZCI6IjhlM2VmMzRjLTdhZTctNWJjOC04OWY3LTJhMzU0ZTA2MWZmMSIsImNyZWF0ZWQiOjE3NTY5NzEzODExNDksImV4aXN0aW5nIjp0cnVlfQ==",
+      "domain": ".breadcrumbs.app",
+      "path": "/",
+      "expires": 1788507390,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga_W1RD3EV964",
+      "value": "GS2.1.s1756971380$o1$g1$t1756971390$j50$l0$h0",
+      "domain": ".breadcrumbs.app",
+      "path": "/",
+      "expires": 1791531390.38387,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "appSessionProd",
+      "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwidWF0IjoxNzU2OTcxMzkwLCJpYXQiOjE3NTY5NzEzODcsImV4cCI6MTc1NzA1Nzc5MH0..yXiQCYrNCWZH3Rf8.K7VUQgsJ-1MQlkGuqFKOYTQXUweztJmpNALC7VMuD2OpJxpVaSm1s54KkGYCDzjgtEUxrAZpEzQRwogul6PZJDH3iIYV52yf6-_KtwRoGVMYBnH5gsAf1gjxkkk-tplMxJyRNRbwOst7oyCiayw80lb5L78YZNlfLESYuB46Ef8nkx6YD-pZckZo4HVq0nAbwq2xXbEOahRWSAtl6TOkTn5511DSHWDH3E6D-lUxGcy7whXpqkP2xdkOSa_mdvCvKd5PJKsdBEpd6pi89pWC_P239va4M4xS6x8u63EqEit3f57u8O41mpUVqH2qsvnRF0lcXVulpXoIXIfBMwEqdh2DhV7XXyPAmEJf9S9DdMrCDLjrrMq6wHouD79QeLUM-Q34ttxTcfntmGxzHkZGsYcg2zV_ASd6wQuoXeDnk9A2LG1ByWOqc_fsGtjI8Fw41QNwe7kVmdML8qYi9z4LkaM2JxX7jQOboiXC2CfwScyzh0o3Izo1R0soG5J4r7rXJjBq_TcdfpwiiRlT5oMo1Tg0lrKCRco-rswiUnqVMe6eu_xlgzCJNaPmiwr4MtsSl5AtFJIUdcDwadfsTEFKIzvnyCCufs5ZmLhw44Tm2OPDjoC86KXRf0-v02FrgTahIUROP8we4bxxJAXvvfrog3ZAaQmJtqNQLVsap0ygpk4AievK9xqofaebBYLcHS_KJlwREskApQih2ZSe3-VAGsCWsV9dWx8y4PE4GecRH7faml6b4e3L3TPaoCHbh1rTWSBWV5gcUh2gCyDcN1HxZ1gZ8ku1uepssnsO8BrKQP7hy24tw422wn6v05KcyN2kQfEf0ZdBmzo2Nd01_eqj77r95g-_GamPnbfBffIWhrVd0LqRQ8rmVsUYSQMXAKuZoR-R69p4_bE3OOfesH8sNGKlXpMUonHbHLZcdWoC4M567ORdh0Ij9lcb6HePXqhU3P9JLFIko-Nu4w38PkD17vOEpdvvTKL9a_btEAC4mz-ObleqMtz6XrIIBIe-BkGSHpJ0X1azw8UDvzB6MKVFbSWhZQpT40rAZtRV7yOQGJgCWkdoB6xn3PiSnOfR3tufHQ5k19mD39QMczYegsmI35i_pN1vjO9Yz6J8uVS-0UbkpCQM4HFFlFLaWLbm4sSHUNjzxA6QOxleTLsYH0A0lmeUMgj_-343Szo9nf7ohv0y-5i722bjn5cH-S7UsrxuDZi0vH2CQsBy9h5SJanvghsle5GAlpGBwjgwcK8FxVOQ1Oa6zlLxSJWC5xi7sQ--2pzTV4tCw1Ks8LRz-W6t1tJNpWucxMXtfOFj6qGdlnlfr25vFoS5DjjpWX0DhFETe3p2bxcdXBsnY2FwE9gue8yWjAX0iiQNwno9Edu0PYoOKjl1Y_iBA1SWc306pDv31JKeIh8KMU7x8h7alnlNVNq0cW4SB7--hUlEuI0b3C1f5U2sAbxS3TJh1Pf-D2DM2F8FVfrGQgFd7aSHRjr1BllqJbWvLCsTzvSlNJbxFrQGa56DkSlatzPNNnKPAug7mBGU3ldVHuJBZ7vm71WzSLXu1r5tHErJXrHXcJoA_7uppPVWbgfXbwuNqVOwJ2mGMTs-a01y5dXQk5QzBGs6_0CcxmW39b59MeqEp9A_Kq2jYds-clVWhG9JW7YdLEUoiTyfi-HY7sRJahVDwyq3hYSexXv_tjpwiwxoK2e8vFbMO9IX3h9X3YouwdQh1Ul_Np6ezp7PooQWAf-ZQOPpEr33PA-uGq0w3EoZR2F5TfrgU6KISCgs2iNhvxMqFUnQlPcIL0XNKAR94cpm1d_uqJx55uRbvfgf7_hlEDLpGM0dOIPb1rrR-SF-TiJXcJZ2Srkr06KKuSIUclycr8J8rn0k559tH2R9t-f_MQawAcbz4vF9TAthb0nnED5sh8CyYHejolqBedAWV-VJnuMInbWmGY13X2p_SUNOrEofafcVTmI0fiXRgbY8IjWLuHtgoP3U9eD2Uhe5kc_jRVGiggOyzNomK6GF_JRHOs1TSsClCKiDmNEu50ZB9l0-rz_VVaF7tt1coGKl0tldLhXJrzuKgP4msulWtfwy1ZYNOQs40W5TIt1aRl_TuyLP3SjvMF35mxH68WtwSe5XS72084TmAghyYTr0EOp0AGphsX50eU5VChevMxiKmL8XkhECQChKv6bu5rVZme4kGssngvgae6la-I1GcZwcdCVogX3yPNiupywsJRi0kIfZkQg_pfXZau3TcccFPl-HhUCr2AfTc1B65BIDgqqIBSQqMC2QgiGqBuuhvXd8qRSXPWU8iOq42i925S01Bhr-OTAn8y1ol47j6_MqdT7gZSDKbXmNdWAXveNQ3Qaf0z-4Cs2q1NqxZbgXwBIjWvKhzWyIn6pQ5k-8HAHbqQ92WD7TDzERxD3ljQgStqaCbN7flsxEgHWQB8jxwSY-_QtIQZZLQKut7gyotrIHllu23C5BSOthe3XbqErBVaMU19XZKjY-In7Gqa4vNnzvkZakhqR-3hqxZqdDco4gZkvzgqToK3u1DhhCwlpyyecynOwaY6IYWlmzW8FMMpV26ktsKZJBOfNmS9C0OjOkS7GuAVQhpaNdM1aqT4rggPudHjxq_IGrUSZG-nHWh-TWQfOtNxjajUkt8F1rANhaL0mf67TJYE-ECliG6gF8NFkJ6gn0zRVryC2Tl1Hd5ItRtj5k_FZECy2s9JmAMQWdbfU2JhzHvOzFNdU4uL93gMf6EZvoSTOy7I0ct9T8iKnMnEYQBvGvuxAscjS6VYQa7oNpPeZQwdAK_G_b0T-yZif9O_cAgREN.MkHb9Ec0zgIU8XuxE5v-mg",
+      "domain": ".breadcrumbs.app",
+      "path": "/",
+      "expires": 1757057790.884808,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "access-token",
+      "value": "eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwidHlwIjoiSldUIiwiY3R5IjoiSldUIn0.xcxdupylj9cv1o3qCg8bHkWuZOyZrwpsuzNiJii9rCmKqTwOeFMemLUQJOL7pp1JsXcwMgE3ltkCLEGRCDxDtHLlexcTTYTq.zsghRS-2lWian_k5a0VhEQ.qqc_ydV2rdy5rokCNzzIKCdDB_Mveyb-LDix9MfgAiX6VtcX4bu2c5bz6hzLbDljf46jlRSqfnANnY6I8pQNQ6fff3pdh4IujpDJsi7hSI7xG1dKtuevFlkdfAdH2TT3JZE8Ae3XYHCLl_7xY06aNotfSfB_i6NAYZhhypUt5wo-zD8dzVBqH-7m7RwLs5XAYOGh5Pq1so04ydM56kVa9UMfpMdQxspbNKXpcFTbG79wFdlVYjeqT3XZm4PIhZSSn1vzWjZ0Ynpgn8NBF61A4gjOrG74IInOdtfg3PrgXpP8EnIyI9nPf__E2rMrOG1WGUsWc2725XcoakOWmhMRPZZ7EqtNczC2uNmLKHbenHU3BVUoouSBgDIsmkfGqVNPsenohWGPKcGnaNbujKtEuUSsEJGXQCIirmt2Q8zYHBVMQlqdpung8VRVUVBO_hppfO-sXgo87srfSuePMDpKz2ZoMHLHSFnw4nM6YeiJSnAWqkM3wYgD3TeK3j3frzssXGXLFxmsphq0zx-Rr9A_VE7WMUgTMEM-VFVsnL7Six9qy8BBdSuuXCe-li1kFbcoZ4BYQFwHjkEAhv2gHrDTQHxofC2LlQqEgOoK4tcGF6MLtC9UKhWH4KrZFHuFmy-WC3vzdEpF14n_t3132B0HclXd2noBDSED1X3DyDhoP9GaPri-39eWFW3dRVJlQz8KDsoko_m17Ub033v2mOr-E_1ATfiyFqTN_DaI0gYQbopTUtGLzJxEMzFoN1s23z2iuWiMqgsmbW9LW5yQVjIvefWxfzws5i__ukFblWNCqBcUdn0AJ2lC1QZ7t4NCS4Jk0QZwa50Gg8gKlbBozOt0uBAcCy5ZlHemHjVG9Sy2UywpGoW1_ETpQA1HSt-alzvBVxgvHNMocIPExpjmIfOJbg.2uhk67bZuPiKD25OQrLWisHxEMiTlXPG5QN17l06XFo",
+      "domain": ".breadcrumbs.app",
+      "path": "/",
+      "expires": 1757576192.304785,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mp_9f5100ba82ff224d1703934ac16a4eda_mixpanel",
+      "value": "%7B%22distinct_id%22%3A%20%22yuneek%40breadcrumbs.app%22%2C%22%24device_id%22%3A%20%2219913a7b59f1405-017a312a1eff5a-26031951-144000-19913a7b5a01405%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%2C%22%24user_id%22%3A%20%22yuneek%40breadcrumbs.app%22%7D",
+      "domain": ".breadcrumbs.app",
+      "path": "/",
+      "expires": 1788507393,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://www.breadcrumbs.app",
+      "localStorage": [
+        {
+          "name": "__mpq_9f5100ba82ff224d1703934ac16a4eda_ev",
+          "value": "[{\"id\":\"xqza4vz2fthyb0mb\",\"flushAfter\":1756971403898,\"payload\":{\"event\":\"$identify\",\"properties\":{\"$os\":\"Windows\",\"$browser\":\"Chrome\",\"$current_url\":\"https://www.breadcrumbs.app/\",\"$browser_version\":110,\"$screen_height\":864,\"$screen_width\":1536,\"mp_lib\":\"web\",\"$lib_version\":\"2.48.1\",\"$insert_id\":\"wmdb96pxute8kosa\",\"time\":1756971393.897,\"distinct_id\":\"yuneek@breadcrumbs.app\",\"$device_id\":\"19913a7b59f1405-017a312a1eff5a-26031951-144000-19913a7b5a01405\",\"$initial_referrer\":\"$direct\",\"$initial_referring_domain\":\"$direct\",\"$user_id\":\"yuneek@breadcrumbs.app\",\"$anon_distinct_id\":\"7982ee43-cda8-48dd-9ee0-aea694782b62\",\"token\":\"9f5100ba82ff224d1703934ac16a4eda\"}}},{\"id\":\"febienpc74jlv7by\",\"flushAfter\":1756971403906,\"payload\":{\"event\":\"Page Visit\",\"properties\":{\"$os\":\"Windows\",\"$browser\":\"Chrome\",\"$current_url\":\"https://www.breadcrumbs.app/\",\"$browser_version\":110,\"$screen_height\":864,\"$screen_width\":1536,\"mp_lib\":\"web\",\"$lib_version\":\"2.48.1\",\"$insert_id\":\"tt87p0ao17f0pqsr\",\"time\":1756971393.906,\"distinct_id\":\"yuneek@breadcrumbs.app\",\"$device_id\":\"19913a7b59f1405-017a312a1eff5a-26031951-144000-19913a7b5a01405\",\"$initial_referrer\":\"$direct\",\"$initial_referring_domain\":\"$direct\",\"$user_id\":\"yuneek@breadcrumbs.app\",\"$tool\":\"INVESTIGATION\",\"$userType\":\"Admin\",\"$isFreeTrial\":false,\"$pathName\":\"/\",\"$isReloaded\":false,\"token\":\"9f5100ba82ff224d1703934ac16a4eda\"}}},{\"id\":\"y9kxrxuxuschvlm0\",\"flushAfter\":1756971403907,\"payload\":{\"event\":\"Page Viewed\",\"properties\":{\"$os\":\"Windows\",\"$browser\":\"Chrome\",\"$current_url\":\"https://www.breadcrumbs.app/\",\"$browser_version\":110,\"$screen_height\":864,\"$screen_width\":1536,\"mp_lib\":\"web\",\"$lib_version\":\"2.48.1\",\"$insert_id\":\"5u929ueisaghtomb\",\"time\":1756971393.907,\"distinct_id\":\"yuneek@breadcrumbs.app\",\"$device_id\":\"19913a7b59f1405-017a312a1eff5a-26031951-144000-19913a7b5a01405\",\"$initial_referrer\":\"$direct\",\"$initial_referring_domain\":\"$direct\",\"$user_id\":\"yuneek@breadcrumbs.app\",\"$tool\":\"INVESTIGATION\",\"$userType\":\"Admin\",\"$isFreeTrial\":false,\"Path Name\":\"/\",\"token\":\"9f5100ba82ff224d1703934ac16a4eda\"}}},{\"id\":\"8xxbo8voy82nlveo\",\"flushAfter\":1756971403908,\"payload\":{\"event\":\"User Logged In\",\"properties\":{\"$os\":\"Windows\",\"$browser\":\"Chrome\",\"$current_url\":\"https://www.breadcrumbs.app/\",\"$browser_version\":110,\"$screen_height\":864,\"$screen_width\":1536,\"mp_lib\":\"web\",\"$lib_version\":\"2.48.1\",\"$insert_id\":\"7btqilk2jsg597oo\",\"time\":1756971393.908,\"distinct_id\":\"yuneek@breadcrumbs.app\",\"$device_id\":\"19913a7b59f1405-017a312a1eff5a-26031951-144000-19913a7b5a01405\",\"$initial_referrer\":\"$direct\",\"$initial_referring_domain\":\"$direct\",\"$user_id\":\"yuneek@breadcrumbs.app\",\"$tool\":\"INVESTIGATION\",\"$userType\":\"Admin\",\"$isFreeTrial\":false,\"token\":\"9f5100ba82ff224d1703934ac16a4eda\"}}}]"
+        },
+        {
+          "name": "device-id",
+          "value": "7982ee43-cda8-48dd-9ee0-aea694782b62"
+        }
+      ]
+    }
+  ]
+}

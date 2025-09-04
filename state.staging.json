@@ -1,0 +1,159 @@
+{
+  "cookies": [
+    {
+      "name": "_csrf",
+      "value": "EJkdkfKkBsDjH0hesPWaNuE-",
+      "domain": "dev-breadcrumbs.us.auth0.com",
+      "path": "/usernamepassword/login",
+      "expires": 1757835633.108209,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.2086974175.1756971630",
+      "domain": ".breadcrumbs.app",
+      "path": "/",
+      "expires": 1791531638.561533,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "did",
+      "value": "s%3Av0%3Ae7919c76-2d06-4865-a694-18cd15a13b52.t1RMSgfkjC%2BPrkKlvNqUtQ%2FGCoFGdU6adxYgDeOoyfY",
+      "domain": "dev-breadcrumbs.us.auth0.com",
+      "path": "/",
+      "expires": 1788529232.650651,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "did_compat",
+      "value": "s%3Av0%3Ae7919c76-2d06-4865-a694-18cd15a13b52.t1RMSgfkjC%2BPrkKlvNqUtQ%2FGCoFGdU6adxYgDeOoyfY",
+      "domain": "dev-breadcrumbs.us.auth0.com",
+      "path": "/",
+      "expires": 1788529232.650748,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "m",
+      "value": "94ddec08-8da1-42d0-9394-704242ea420da04936",
+      "domain": "m.stripe.com",
+      "path": "/",
+      "expires": 1791531639.997464,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__stripe_mid",
+      "value": "c45ce51b-7ad6-4592-a165-7714dd38277ab5de01",
+      "domain": ".staging-investigate-1.breadcrumbs.app",
+      "path": "/",
+      "expires": 1788507640,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "__stripe_sid",
+      "value": "ec331a27-5d06-49fc-a93c-f4668594ffc716a976",
+      "domain": ".staging-investigate-1.breadcrumbs.app",
+      "path": "/",
+      "expires": 1756973440,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Strict"
+    },
+    {
+      "name": "auth0",
+      "value": "s%3ASED__6xsW-FiyBNrA2IMLakrCAGj7CNx.W8x0NAtckuHxAIN3fWlZZl1For6%2FxE1kvYsLVXZvZSM",
+      "domain": "dev-breadcrumbs.us.auth0.com",
+      "path": "/",
+      "expires": 1757230836.141309,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "auth0_compat",
+      "value": "s%3ASED__6xsW-FiyBNrA2IMLakrCAGj7CNx.W8x0NAtckuHxAIN3fWlZZl1For6%2FxE1kvYsLVXZvZSM",
+      "domain": "dev-breadcrumbs.us.auth0.com",
+      "path": "/",
+      "expires": 1757230836.14143,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "breadcrumbs-theme",
+      "value": "auto",
+      "domain": "staging-investigate-1.breadcrumbs.app",
+      "path": "/",
+      "expires": 1788507638.490527,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_0CJK569W7Y",
+      "value": "GS2.1.s1756971629$o1$g1$t1756971638$j51$l0$h0",
+      "domain": ".breadcrumbs.app",
+      "path": "/",
+      "expires": 1791531638.626994,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "appSessionStaging",
+      "value": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIiwidWF0IjoxNzU2OTcxNjM4LCJpYXQiOjE3NTY5NzE2MzUsImV4cCI6MTc1NzA1ODAzOH0..oDxOdFw_3yRa4pNA.DjGNM2dcKZ-bqU5-HIwkMrpZjoOPClxnWevn2B2d4KGGl_ZAOGEw9hePsjA2kmSdLJ27ikb82kmJB-Evfg9Tr08YAthmtu3XTPxEyT7K2DLKk--2qUh54Xj0yUvCdb86GVII6pUSTPpuOaYfdwytuzZTfn24STAL-AgtW7_c7ikJcB6K1m_3nrghE3Rmf3SQ1JLSrUKqj2xKpJLJo_1a-nP6wrpr05RurhkqDlCVjwLNU87e52GxxN74wZPms7ANkPCCGOVRKfKEpZuxlRi8Pf6pxkHdMXiTFzLFsktntjaXI-ouyAJ2N17wAN4qsLNdVKKlZ1MwiUzTBdi96HLxX4447FuNTdangD-Olst-elYiKR7MQZSPrR1P1DH3NJL9h2J-y9cin9qavhB78OkAPFDgfmkY7oSHwgt2mfJlGP_9aiOxLh5nsmSYSI-VtQNPqviTiFQ4tFFXr9jMzwvkyztN1f6tpDNVZUH71GSBSAHHuDfMxj6_4P0ggGbM8aR-M8xZP4SHNXcUHO1LIUeVZ84zXUlJLLFZuPwDHzpFBBZ0tzp3TWX_TwoobLyRcKE4FhHACPRGCGyM498WR6511-fRO9B1ucxJg299DJ5NYNm6OH6u3SavbYZEvVeam5Z1UZexegaLvh0ukRpmAzGVSF_YwtKRPmj1GC4yfpEwNee0dmIjnSRNKlYE8BJP3MklI34kPBYWW6tHGTtYK9VzvPtCcwNJEbyknBnjAiwHYkZkfLhLKV6r_fVU4mWaGUBlxFgPsZ-8yh_KI-ksBQeod4wPfU8TLUw1ufu8sXQx2gLoY9hwVj_7EPy561_733-iV_MUDZeBweUBpk-1aPh3WgB0qUgKRuNPTrRoilGDereamDgj1IgleID3-TyScSzuebvplT1bwd3nP-f8Hi8llYlY0EWmbZhqW_mMM-n7R2PMFR6tfMmuE5Rbc3EyjvChXiq5pOoGoA9dXQRoInevgX03jG3QU8jpU34oN5uoxbHNe0PNx8hcKwGNFi_g1BEwMA64hdfaimZcHciDLe-YHVN6twXaSZs8gaGm7EbXpNMnaU5ZM5GfJC9N2hGsu8KJsR1njz-fd9ogAohRiuQounLkx9W9rGIzzTlFj--xKEcvfqoyzg3-boDOeecXfo_nBVft8GJytUm4dJk9CkNlbnSCqLR67k7LHYHM_LEh-D-MX9gbZHnvicttjDEUcq2u8vIoRxILi5Z3r6rucr4v_BqjzF1i-_ivcIay0deZdcNkBMiWtaYFGGrUGNqb5N7V8TRkAPCc8G2sYVRwFNHtLUDIksiT9FpFC3e-bx2QQOGymU3Nf5TVUb3wecmpcIspdyHXrquvrXmTGgeuAdYs5DH_b0WrPT03DoBRBKD2bdxvzEXaCMXUj-1npBNVOV8CtsDrlnWL3RyaBYegMwL-px29rKYOnvFakLYXTd5PZf6BEq1UI4x1eqtW3aL92AkUpoRyI1cWPd09ojauovQh-sEHU6svnPzs5uVDoUbiBat4LFLrmyDypONQUEj9Tvl-6iI8BH-1QqCrAAoC9zsvREUthjTGhbrb2USXUcNfrkICrp_ExmK2YvXmKE_kd7Fgo8_1yF86hVTvYKeiZA2ajmpZcpG86z_UwbFdQ-5Wr2sAGuHQbHLRSKaYdJRjW53_vqcYm6aTTS54-rcNPiGtSusUZKIG0QBt-WMNX80w0BnTWapwZgPgaBUJTK8khAcRDbqpNLniN0-Yfir9Im85kUoPKauuTVrdWPtnkFoLqPF__lFt0o8jwlET8R_cIHj3uBi7BeOBa_BY9vlVEWkuHrcTrynXMtHclJM_y-kgofnuCQI4rS-WHCBCCSh4oWmkp_7wZAelO-AT5xw5QJKA_UAy5DmfNFldh5Gy3zuaC9Bu5qbQDEaLPWwk4iZmVt53XQISUm-w7hc_Q7tNlQPesRrCiG52vsRV_6txmFVqsNB4zygQBCsa3xglkGwsvyWn7oDoHEaxhUDYyUSIt3dwXtjwhDDvDSmqp0jUOMgz3BKQxzCpQqcjBagppUvSSywG7V2fItuf_-EQnSw_KuVWmesUibhVQSXlvoaNJFLunTY7oLi6tr7BROInJOEvYIyV43P2DzkNDIctUKH8FD0drl3WEASvUYNmbWuP5ulQUbmj75o9HDU5PJZoXJCopgh5Mch_8R7l8p0nm7R120D1zXeqnTaI5p-VY1Hgoa1t6KNUYW-RFMyCSIEf_cVZCOxo-MosH9pPCMZamHQKWxgOFNFKUzAAj7cwo9ZHFi512Pgv1LrWDEAB4Lxgr3D6V0osODpOZiAQgoxSnOJtW1DU6mqsQNGvfc89gRqQo2gFNSGUWIoJWjdriRQOF71fEmmlOJy8aKaiX2AZ5eBcx551KTM9UrXdgxL3GCk9XcFym1HARoUl551_NDACxlF13ZJm2qZf3qbB32B6u6lvTYXkH-84dyfSwdgbXzUlyaOWEYsW7VOL4-B-ccnEecMwoG7U44h4_OVn-DwFvavP1O4nFN4cd78uaaOnglmKUJSxX04d3E6Fm2jfL7yv0LUtukoLIPQZaZzImfODLjRI-0b1_UZb4o_HJHKlqHDJM9ivfAHgmZSxDHj3mT3WlmXJjCezc7-ZVsGmf-fmLvg8_6gM88TxfV2WN28j5uidBTsCl_o_wJwpRZm2TlsQzv8QYaLva6AfIr6eNANx73303b3pkj22Z9d7jlN4R3OWIkwOfbgaF5JVOld4_mD3kRcdvPAjgbVe_iimjrKY4Dg96hiO0_TYaWmQv33HVaUZdUXB0QiQRvSgI7D2SNqCPJiPRwuv6SEpOhla4c2eNU2HSUCTmYQauTAYgIt3-hMIJrQzw8g23Ulg_f9kTvehzonPIKUJ3nfzsilmjWRvwTiz0jmnKPaLcUFrMeHiMkSQsGqomOz4pXobU9RBP57iczCkgqbt8iLUxHqwnm14Y38fUvKD2S8B9A2ePl0plBtM0fnpuMFdjBRtCTrrvHzf6bBtO6AHBk489DNlMnPuPqXbTxgetZnL4Iu6MQ.prapZCDXAPhucdSRVuBcTw",
+      "domain": ".breadcrumbs.app",
+      "path": "/",
+      "expires": 1757058039.135372,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "dev-access-token",
+      "value": "eyJhbGciOiJBMjU2S1ciLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwidHlwIjoiSldUIiwiY3R5IjoiSldUIn0.GSgxau5axell0Ul5JvWRHjOhKm_ED4p48gE-hXhWWUmiAPfQX7h0SzycI34lVcSvF-VaVoNS5Zc-G0FRcsEHKJkNIQBnFBq2.JcGmwpt-Rci2_8BCM9YH1w.l1k1tGU3mUtF7-dSMspYQIRSfg3-PoLNIGN_Ta56VLulcZ4y86cKEj1FfOvIqSgIVk0L1C6oNI-9I1Urh9kn2DVG2RiMphoDNN3yehtM8HJaTV5Y-k_jzHxlromE3zlFkMoyp1Qy6VBLUZFlbf76J2M4IAN9gN5N9Yn0WybdCm5VwotY_6UXRQJ2xAV2cWI86NzB246TjRzREzKAmA0Cw9bp_xaABy_sSaj3k0R5AL_hEFxPhIvVoGkySqi4AlNZ_VyykOFZugpPoJKsmqynySrcyZtsyrETj3djtWtLURwrlcMsS2iQ-STpvZachpIpQXqiiU__F5fOSBC7I27HoM3jDbmesNCkHJHZ3pigw-OmieododHE_9ipofMZxG0EEXfcRX1KJV_6Js48oCkmbWLkkvDVnwVnt498dDoXfbIqMNEXgKIF9AsnsjW2BPrYnMWhJUJPZGeav28Zd2dy-A_KHR8byYYPD7_Lh4SSxuObzHFratp6lEPuXWvuGY2kJIM2Z4zVSHX68HvYYkq-DcOQSGVYRE_EUmS8yp-gB1V55IZxDW31oH3MJNIG-6BzOyXOYrGnRgM3n415pHysp8931ejHMKefyAKM_ZHC0BuEJKnGsLSyoMD-GTzRhrKhNHHGgiFviRPHe_VCPq5wjlqlv8VWu5-W0bTycxQmrvII7q6KyaT31WjyTbLkMhsTo05uoh7TCJxejpdIuXgzfPI_CW1MFONvF3Ka-oE4vFjy-3lW8H2JPl2CoJ2xSh9Yt0mI0BieOf4MWv7RmaC1GNX4CLyIGvVfSHuSv_KO8U51A0fjlQG-b1lAB8h6M460v8Duy6KbvsGSDWYsjqCll7FatERBw2wYmos8S3uXU3D4Utxk2SC9AjCjnym17nrA.YBrHmSRxo2R24g897cN-0BDl1o2hEK0VpB1GmYWVs8M",
+      "domain": ".breadcrumbs.app",
+      "path": "/",
+      "expires": 1757576439.974518,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mp_5e1316fdb2f8e4fb631f8177346061c3_mixpanel",
+      "value": "%7B%22distinct_id%22%3A%20%22yuneek%40breadcrumbs.app%22%2C%22%24device_id%22%3A%20%2219913ab83711403-0d9bb8a69a2bc-26031951-144000-19913ab83711403%22%2C%22%24initial_referrer%22%3A%20%22%24direct%22%2C%22%24initial_referring_domain%22%3A%20%22%24direct%22%2C%22%24user_id%22%3A%20%22yuneek%40breadcrumbs.app%22%7D",
+      "domain": ".breadcrumbs.app",
+      "path": "/",
+      "expires": 1788507641,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://staging-investigate-1.breadcrumbs.app",
+      "localStorage": [
+        {
+          "name": "device-id",
+          "value": "1c3f2a94-5f83-4595-afe9-57edb607af83"
+        },
+        {
+          "name": "__mpq_5e1316fdb2f8e4fb631f8177346061c3_ev",
+          "value": "[{\"id\":\"5d3oqfs7gr6r94a9\",\"flushAfter\":1756971641479,\"payload\":{\"event\":\"$identify\",\"properties\":{\"$os\":\"Windows\",\"$browser\":\"Chrome\",\"$current_url\":\"https://staging-investigate-1.breadcrumbs.app/\",\"$browser_version\":110,\"$screen_height\":864,\"$screen_width\":1536,\"mp_lib\":\"web\",\"$lib_version\":\"2.48.1\",\"$insert_id\":\"w5wijwc7lllws4ft\",\"time\":1756971631.479,\"distinct_id\":\"1c3f2a94-5f83-4595-afe9-57edb607af83\",\"$device_id\":\"19913ab83711403-0d9bb8a69a2bc-26031951-144000-19913ab83711403\",\"$initial_referrer\":\"$direct\",\"$initial_referring_domain\":\"$direct\",\"$user_id\":\"1c3f2a94-5f83-4595-afe9-57edb607af83\",\"$anon_distinct_id\":\"$device:19913ab83711403-0d9bb8a69a2bc-26031951-144000-19913ab83711403\",\"token\":\"5e1316fdb2f8e4fb631f8177346061c3\",\"mp_sent_by_lib_version\":\"2.48.1\"}}},{\"id\":\"ez86w88ouzjbs3cp\",\"flushAfter\":1756971641498,\"payload\":{\"event\":\"Page Visit\",\"properties\":{\"$os\":\"Windows\",\"$browser\":\"Chrome\",\"$current_url\":\"https://staging-investigate-1.breadcrumbs.app/\",\"$browser_version\":110,\"$screen_height\":864,\"$screen_width\":1536,\"mp_lib\":\"web\",\"$lib_version\":\"2.48.1\",\"$insert_id\":\"hw7w81z6doeyprow\",\"time\":1756971631.498,\"distinct_id\":\"1c3f2a94-5f83-4595-afe9-57edb607af83\",\"$device_id\":\"19913ab83711403-0d9bb8a69a2bc-26031951-144000-19913ab83711403\",\"$initial_referrer\":\"$direct\",\"$initial_referring_domain\":\"$direct\",\"$user_id\":\"1c3f2a94-5f83-4595-afe9-57edb607af83\",\"$tool\":\"INVESTIGATION\",\"$userType\":\"Anonymous\",\"$isFreeTrial\":false,\"$pathName\":\"/\",\"$isReloaded\":false,\"token\":\"5e1316fdb2f8e4fb631f8177346061c3\",\"mp_sent_by_lib_version\":\"2.48.1\"}}},{\"id\":\"stxo6u5t2idd0o1l\",\"flushAfter\":1756971641500,\"payload\":{\"event\":\"Page Viewed\",\"properties\":{\"$os\":\"Windows\",\"$browser\":\"Chrome\",\"$current_url\":\"https://staging-investigate-1.breadcrumbs.app/\",\"$browser_version\":110,\"$screen_height\":864,\"$screen_width\":1536,\"mp_lib\":\"web\",\"$lib_version\":\"2.48.1\",\"$insert_id\":\"ixo5kfko9z2jey1w\",\"time\":1756971631.5,\"distinct_id\":\"1c3f2a94-5f83-4595-afe9-57edb607af83\",\"$device_id\":\"19913ab83711403-0d9bb8a69a2bc-26031951-144000-19913ab83711403\",\"$initial_referrer\":\"$direct\",\"$initial_referring_domain\":\"$direct\",\"$user_id\":\"1c3f2a94-5f83-4595-afe9-57edb607af83\",\"$tool\":\"INVESTIGATION\",\"$userType\":\"Anonymous\",\"$isFreeTrial\":false,\"Path Name\":\"/\",\"token\":\"5e1316fdb2f8e4fb631f8177346061c3\",\"mp_sent_by_lib_version\":\"2.48.1\"}}},{\"id\":\"ydizd2f967i94gfr\",\"flushAfter\":1756971651309,\"payload\":{\"event\":\"$identify\",\"properties\":{\"$os\":\"Windows\",\"$browser\":\"Chrome\",\"$current_url\":\"https://staging-investigate-1.breadcrumbs.app/\",\"$browser_version\":110,\"$screen_height\":864,\"$screen_width\":1536,\"mp_lib\":\"web\",\"$lib_version\":\"2.48.1\",\"$insert_id\":\"2ioi5wzjt0j4ggu9\",\"time\":1756971641.309,\"distinct_id\":\"yuneek@breadcrumbs.app\",\"$device_id\":\"19913ab83711403-0d9bb8a69a2bc-26031951-144000-19913ab83711403\",\"$initial_referrer\":\"$direct\",\"$initial_referring_domain\":\"$direct\",\"$user_id\":\"yuneek@breadcrumbs.app\",\"$anon_distinct_id\":\"1c3f2a94-5f83-4595-afe9-57edb607af83\",\"token\":\"5e1316fdb2f8e4fb631f8177346061c3\"}}},{\"id\":\"h1dxgq57e94wbcqk\",\"flushAfter\":1756971651314,\"payload\":{\"event\":\"Page Visit\",\"properties\":{\"$os\":\"Windows\",\"$browser\":\"Chrome\",\"$current_url\":\"https://staging-investigate-1.breadcrumbs.app/\",\"$browser_version\":110,\"$screen_height\":864,\"$screen_width\":1536,\"mp_lib\":\"web\",\"$lib_version\":\"2.48.1\",\"$insert_id\":\"36lrduom50g9sy5q\",\"time\":1756971641.314,\"distinct_id\":\"yuneek@breadcrumbs.app\",\"$device_id\":\"19913ab83711403-0d9bb8a69a2bc-26031951-144000-19913ab83711403\",\"$initial_referrer\":\"$direct\",\"$initial_referring_domain\":\"$direct\",\"$user_id\":\"yuneek@breadcrumbs.app\",\"$tool\":\"INVESTIGATION\",\"$userType\":\"Admin\",\"$isFreeTrial\":false,\"$pathName\":\"/\",\"$isReloaded\":false,\"token\":\"5e1316fdb2f8e4fb631f8177346061c3\"}}},{\"id\":\"xhf6fkbynifc90lq\",\"flushAfter\":1756971651315,\"payload\":{\"event\":\"Page Viewed\",\"properties\":{\"$os\":\"Windows\",\"$browser\":\"Chrome\",\"$current_url\":\"https://staging-investigate-1.breadcrumbs.app/\",\"$browser_version\":110,\"$screen_height\":864,\"$screen_width\":1536,\"mp_lib\":\"web\",\"$lib_version\":\"2.48.1\",\"$insert_id\":\"jm2jg48cb7xyqkir\",\"time\":1756971641.315,\"distinct_id\":\"yuneek@breadcrumbs.app\",\"$device_id\":\"19913ab83711403-0d9bb8a69a2bc-26031951-144000-19913ab83711403\",\"$initial_referrer\":\"$direct\",\"$initial_referring_domain\":\"$direct\",\"$user_id\":\"yuneek@breadcrumbs.app\",\"$tool\":\"INVESTIGATION\",\"$userType\":\"Admin\",\"$isFreeTrial\":false,\"Path Name\":\"/\",\"token\":\"5e1316fdb2f8e4fb631f8177346061c3\"}}},{\"id\":\"mj0r118mub7xudy1\",\"flushAfter\":1756971651316,\"payload\":{\"event\":\"User Logged In\",\"properties\":{\"$os\":\"Windows\",\"$browser\":\"Chrome\",\"$current_url\":\"https://staging-investigate-1.breadcrumbs.app/\",\"$browser_version\":110,\"$screen_height\":864,\"$screen_width\":1536,\"mp_lib\":\"web\",\"$lib_version\":\"2.48.1\",\"$insert_id\":\"lg09f2qol85zprd8\",\"time\":1756971641.316,\"distinct_id\":\"yuneek@breadcrumbs.app\",\"$device_id\":\"19913ab83711403-0d9bb8a69a2bc-26031951-144000-19913ab83711403\",\"$initial_referrer\":\"$direct\",\"$initial_referring_domain\":\"$direct\",\"$user_id\":\"yuneek@breadcrumbs.app\",\"$tool\":\"INVESTIGATION\",\"$userType\":\"Admin\",\"$isFreeTrial\":false,\"token\":\"5e1316fdb2f8e4fb631f8177346061c3\"}}}]"
+        }
+      ]
+    }
+  ]
+}
