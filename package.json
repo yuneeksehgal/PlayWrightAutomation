@@ -7,7 +7,9 @@
     "BCMandatoryCasesProd": "cross-env ENV=production npx playwright test tests/BCMandatoryCasesPO.spec.js",
     "BCMandatoryCasesStaging": "cross-env ENV=staging npx playwright test tests/BCMandatoryCasesPO.spec.js",
     "BCPathFinderV2": "npx playwright test tests/BC-pathfinderV2.spec.js",
-    "AIDemo": "npx playwright test tests/AIDemoUsingZerosteo.spec.js"
+    "AIDemo": "npx playwright test tests/AIDemoUsingZerosteo.spec.js",
+    "testParallel:production": "cross-env ENV=production npx playwright test tests/BCMCPOParallel.spec.js",
+    "testParallel:staging": "cross-env ENV=staging npx playwright test tests/BCMCPOParallel.spec.js"
   },
   "keywords": [],
   "author": "",
