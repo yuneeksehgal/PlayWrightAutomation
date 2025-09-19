@@ -8,8 +8,8 @@ const testData = require("../utils/BCTestData.json");
 const env = process.env.ENV || 'production'; // default to production
 const envUrl = env === 'staging' ? testData.stagingURL : testData.productionURL;
 const envReport = env === 'staging' ? testData.stagingReport : testData.productionReport;
-
-test.describe.configure({ mode: 'serial' });
+const envDashboard = env === 'staging' ? testData.stagingMonitoringURL : testData.productionMonitoringURL;
+//test.describe.configure({ mode: 'serial' });
 
 let page;
 let poManager;
@@ -105,4 +105,19 @@ test('Investigation Tool V2 | Download Timeline Video', async ()=>
    await reportsPage.investigationDownloadTimelineVideo();
 
 }
+);
+
+
+test.only('Monitoring Tool | Transaction Section Export to CSV', async ()=>
+
+ { const loginPage = poManager.getLoginPage();
+   await loginPage.goTo(envUrl);
+   await loginPage.validLogin(testData.useremail, testData.password, testData.username);
+   
+   const MonitoringTool = poManager.getMonitoringTool();
+   
+   MonitoringTool.goToMonitoringTool(envDashboard);
+   MonitoringTool.downloadMonitoringCSV(testData.monitoringDashboard);
+   
+   }
 );
