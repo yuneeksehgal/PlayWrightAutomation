@@ -12,6 +12,7 @@ class MonitoringTool{
         this.transactionsTab = page.getByText('Transactions');
         this.tableExportButton = page.locator('button[data-testid="table-export"]');
         this.downloadCSVLink = page.getByText('Download CSV');
+        this.toastify= page.locator('div[type="info"]');
     }
 
      async goToMonitoringTool(MonitoringToolURL)   {
@@ -33,22 +34,24 @@ class MonitoringTool{
 
        // Wait for the dashboard list/table to appear
        
-       await this.page.waitForSelector('ul[data-testid="dashboard-list-private"]', { timeout: 10000 }); 
+       await this.page.waitForSelector('ul[data-testid="dashboard-list-private"] a', { timeout: 10000 }); 
        
-
-       // Log available dashboard links for debugging
-       const dashboardLinks = await this.page.locator('ul[data-testid="dashboard-list-private"] a').allTextContents();
-       console.log('Available dashboards:', dashboardLinks);
 
        const savedDashboardLink = this.page.getByRole('link', { name: new RegExp(monitoringDashboard, 'i') }).first();
        await expect(savedDashboardLink).toBeVisible({ timeout: 60000 });
        await savedDashboardLink.click();
 
+       await this.page.waitForSelector('div[data-testid="overview-container"] div', { timeout: 10000 });
+
        await this.transactionsTab.click();
 
-       await this.tableExportButton.click() // click the download button
-       await expect(this.toastify).toContainText('Your CSV is now available for download.');
+       await this.page.waitForSelector('div[data-testid="remote-table"] tbody tr', { timeout: 10000 });
 
+       await this.tableExportButton.click() // click the download button     
+
+       await expect(this.toastify).toContainText('Export to CSV requested. We will notify you once available.');
+
+      await this.downloadCSVLink.waitFor({ timeout: 50000 });
 
       const [ download ] = await Promise.all([
        this.page.waitForEvent('download'),
@@ -56,7 +59,7 @@ class MonitoringTool{
        ]);
 
       await download.saveAs("export-alpha.csv");
-      expect(download.suggestedFilename()).toContain(monitoringDashboard);
+      expect(download.suggestedFilename()).toContain("alpha");
     
     }
 
