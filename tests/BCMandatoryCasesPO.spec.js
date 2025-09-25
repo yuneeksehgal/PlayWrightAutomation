@@ -116,8 +116,9 @@ test.only('Monitoring Tool | Transaction Section Export to CSV', async ()=>
    
    const MonitoringTool = poManager.getMonitoringTool();
    
-   MonitoringTool.goToMonitoringTool(envDashboard);
-   MonitoringTool.downloadMonitoringCSV(testData.monitoringDashboard);
+   await MonitoringTool.goToMonitoringTool(envDashboard);
+   await MonitoringTool.downloadMonitoringCSV(testData.monitoringDashboard);
    
    }
 );
+
