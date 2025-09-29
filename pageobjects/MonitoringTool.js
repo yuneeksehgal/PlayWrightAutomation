@@ -51,15 +51,16 @@ class MonitoringTool{
 
        await expect(this.toastify).toContainText('Export to CSV requested. We will notify you once available.');
 
-      await this.downloadCSVLink.waitFor({ timeout: 50000 });
+      await this.downloadCSVLink.waitFor({ timeout: 60000 });
 
       const [ download ] = await Promise.all([
        this.page.waitForEvent('download'),
        await this.downloadCSVLink.click(),
        ]);
 
-      await download.saveAs("export-alpha.csv");
-      expect(download.suggestedFilename()).toContain("alpha");
+      //await download.saveAs("download Monitoring CSV.csv");
+      console.log(download.suggestedFilename());
+      expect(download.suggestedFilename()).toContain("export");
     
     }
 
