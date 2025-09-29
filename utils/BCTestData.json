@@ -10,6 +10,8 @@
     "inputETHAddress" : "0x9334450968Ac2E3B6eB0cb70ad813F27d8576915",
     "stagingReport" : "Mandatory Check Automation",
     "productionReport" : "PNP Ransom payments (Clone)",
-    "monitoringDashboard" : "Alpha"
+    "monitoringDashboardProd" : "Alpha",
+    "monitoringDashboardStaging" : "Yuneek Dashboard"
 
 }
+
