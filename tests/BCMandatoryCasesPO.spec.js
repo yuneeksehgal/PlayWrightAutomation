@@ -8,7 +8,8 @@ const testData = require("../utils/BCTestData.json");
 const env = process.env.ENV || 'production'; // default to production
 const envUrl = env === 'staging' ? testData.stagingURL : testData.productionURL;
 const envReport = env === 'staging' ? testData.stagingReport : testData.productionReport;
-const envDashboard = env === 'staging' ? testData.stagingMonitoringURL : testData.productionMonitoringURL;
+const envUrlMonitor = env === 'staging' ? testData.stagingMonitoringURL : testData.productionMonitoringURL;
+const envDashboard = env === 'staging' ? testData.monitoringDashboardStaging : testData.monitoringDashboardProd;
 //test.describe.configure({ mode: 'serial' });
 
 let page;
@@ -110,15 +111,16 @@ test('Investigation Tool V2 | Download Timeline Video', async ()=>
 
 test.only('Monitoring Tool | Transaction Section Export to CSV', async ()=>
 
- { const loginPage = poManager.getLoginPage();
+ { /* const loginPage = poManager.getLoginPage();
    await loginPage.goTo(envUrl);
-   await loginPage.validLogin(testData.useremail, testData.password, testData.username);
+   await loginPage.validLogin(testData.useremail, testData.password, testData.username); */
    
    const MonitoringTool = poManager.getMonitoringTool();
    
-   await MonitoringTool.goToMonitoringTool(envDashboard);
-   await MonitoringTool.downloadMonitoringCSV(testData.monitoringDashboard);
+   await MonitoringTool.goToMonitoringTool(envUrlMonitor);
+   await MonitoringTool.downloadMonitoringCSV(envDashboard);
    
    }
 );
+
 
