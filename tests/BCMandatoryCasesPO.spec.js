@@ -116,11 +116,21 @@ test.only('Monitoring Tool | Transaction Section Export to CSV', async ()=>
    await loginPage.validLogin(testData.useremail, testData.password, testData.username); */
    
    const MonitoringTool = poManager.getMonitoringTool();
-   
-   await MonitoringTool.goToMonitoringTool(envUrlMonitor);
-   await MonitoringTool.downloadMonitoringCSV(envDashboard);
+
+  // If this is a retry, re-establish authentication/session.
+  // Use login flow or reload storageState as your project requires.
+  if (testInfo.retry > 0) {
+    const loginPage = poManager.getLoginPage();
+    await loginPage.goTo(envUrl);
+    await loginPage.validLogin(testData.useremail, testData.password, testData.username);
+    await page.waitForLoadState('networkidle');
+  }
+
+  await MonitoringTool.goToMonitoringTool(envUrlMonitor);
+  await MonitoringTool.downloadMonitoringCSV(envDashboard);
    
    }
 );
+
 
 
