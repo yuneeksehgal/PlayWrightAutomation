@@ -35,6 +35,8 @@ class ReportsPage{
         this.downloadCSVReport = page.getByText('Download CSV');
         this.donwloadTimelineVideo = page.getByText('Download Timeline Video');
         this.donwloadToastify= page.locator('div[data-testid="notification"]');
+        this.unsavedProceedButton = page.getByText('Proceed');
+        
     }
 
     async pressOK()
@@ -207,9 +209,10 @@ class ReportsPage{
       const download = await downloadPromise; // wait for download event to complete
       expect(download.suggestedFilename()).toBe("transactions.csv");
       await this.imgBCTopNav.click();
-
+      await this.unsavedProceedButton.click();
     }
 
     
 }
+
 module.exports = {ReportsPage};
